@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+
+header{
+	background:#0a043c;
+}
+
+.navigation{
+	list-style: none;
+	display:flex;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation li{
+	margin-left: 20px;
+	margin-right: 20px;
+	color:#FFFFFF;
+	font-size: 20px;
+}
+
+.navigation li.active-page{
+	color:#1597bb;
+}
+.navigation li :hover{
+	color:red;
+}
+
+
+.main-banner{
+	height: 600px;
+	background-image: url(image2.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textbook{
+	background:#FFFFFF;
+	padding: 40px ;
+	max-width: 300px;
+}
+
+.textbook h3{
+	font-size: 18px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	color:#23689b;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.textbook h1{
+	color:#000000;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 10px;
+}
+
+.btn{
+	background:#ffcc29;
+	color:#1b1717;
+	border-radius: 20px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.about{
+	padding: 90px 0;
+}
+
+.container{
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-text{
+	display: flex;
+	text-align: left;
+}
+
+.about-child-left{
+	width: 50%;
+	background-image: url(web2-final-proj-image.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.about-child-right{
+	width: 50%;
+	background:#FFFFFF;
+	padding: 20px;
+	margin-right: 40px;
+}
+
+.about-child-right h3{
+	margin-bottom: 10px; 
+	color:#23689b;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.about-child-right h1{
+	color:#000000;
+	max-width: 300px;
+	margin-bottom: 20px;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+}
+
+.about-child-right p{
+	color:#31326f;
+	max-width: 300px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.btn{
+	background:#ffcc29;
+	color:#1b1717;
+	border-radius: 20px;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-align: left;
+}
+.end{
+	
+	height: 100px;
+	background-image: url(image3.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
